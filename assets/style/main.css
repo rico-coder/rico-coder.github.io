@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.sheet{
+    display:flex;
+    flex-direction: row;
+}
+.strip-left{
+    width: 50px;
+    background-color:white;
+}
+.first-section {
+    display: flex;
+}
+
+.foto-rico {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.icon {
+    width: 30px;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: inline-block;
+}
+
+.foto-rico-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 80vh;
+    padding: 0 100px;
+    background-color:#6B8BAE;
+}
+
+.table-address {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about {
+    display: flex;
+    align-items: top;
+    padding-top:50px;
+    height: 30vh;
+    background-color:#6B8BAE;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 40px;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 17px;
+}
+
+.right-section {
+    padding-left: 30px;
+    width: 60%;
+}
+
+.header {
+    background-color: gray;
+    padding: 30px 0 30px 10px;
+}
+
+
+.right-section ul {
+    display: flex;
+    list-style: none;
+    gap: 2px;
+}
+
+.right-section ul li {
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #dddddd;
+}
+
+.right-section ul li a {
+    padding: 10px;
+    background-color: #dddddd;
+    color: black;
+    text-decoration: none;
+}
+  
+footer {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color:gray;
+}
+
+footer div {
+    display: flex;    
+}
+
+footer div p {
+    width: 300px;
+    margin:0 150px 0 150px;
+}
+
+button{
+    border:none;
+    height: 40px;
+    padding: 10px;
+}
